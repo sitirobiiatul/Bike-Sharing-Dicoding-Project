@@ -11,11 +11,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import plotly.express as px
 import streamlit as st
 
 def load_data():
-    all_data = pd.read_csv("/content/all_data.csv")
+    all_data = pd.read_csv("https://raw.githubusercontent.com/sitirobiiatul/Bike-Sharing-Dicoding-Project/main/Dashboard/all_data.csv")
     return all_data
 
 all_data = load_data()
