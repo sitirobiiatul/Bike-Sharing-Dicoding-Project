@@ -136,7 +136,7 @@ with st.container():
   st.pyplot(fig)
 
 # Hide Streamlit Style
-    hide_st_style = """
+hide_st_style = """
                 <style>
                 #MainMenu {visibility: hidden;}
                 footer {visibility: hidden;}
