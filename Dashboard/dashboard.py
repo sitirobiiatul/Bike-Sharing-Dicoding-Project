@@ -115,7 +115,7 @@ with st.container():
 # Bar plot
   fig, ax = plt.subplots(figsize=(10, 6))
   sns.barplot(data=all_data, x='season_daily', y='cnt_daily', hue='yr_daily', palette = 'Set2')
-  ax.set(title='Total Penyewa Sepeda Berdasarkan Bulan')
+  ax.set(title='Total Penyewa Sepeda Berdasarkan Musim')
   plt.xlabel('Musim')
   plt.ylabel('Total Penyewa')
 
